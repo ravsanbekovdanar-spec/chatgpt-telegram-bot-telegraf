@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: ['26.5.0']
+        node-version: ['26.7.0']
 
     steps:
     - name: Checkout code
@@ -26,7 +26,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npx --yes npm@12.0.1 ci
+      run: npx --yes npm@12.0.2 ci
 
     - name: Run tests
       run: npm test
