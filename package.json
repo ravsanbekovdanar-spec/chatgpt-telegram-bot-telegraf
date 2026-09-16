@@ -53,13 +53,13 @@
   "overrides": {
     "brace-expansion": "^5.0.9",
     "glob": "^13.0.6",
-    "js-yaml": "^3.15.1",
+    "js-yaml": "^3.15.2",
     "test-exclude": "^8.0.0"
   },
   "resolutions": {
     "brace-expansion": "^5.0.9",
     "glob": "^13.0.6",
-    "js-yaml": "^3.15.1",
+    "js-yaml": "^3.15.2",
     "test-exclude": "^8.0.0"
   }
 }
